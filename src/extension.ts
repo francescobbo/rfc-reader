@@ -35,6 +35,7 @@ async function openRfc(number: number) {
 		vscode.ViewColumn.One,
 		{
 			enableCommandUris: true,
+			enableFindWidget: true
 		}
 	);
 
